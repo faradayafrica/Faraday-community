@@ -7,13 +7,13 @@ function Community() {
         Faraday Community
       </h2>
 
-      <p className='mt-4 text-center max-w-[40rem] mx-auto'>
+      <p className='mt-4 text-center max-w-[80rem] mx-auto'>
         Join the telegram group and channel where all African scholars can ask
         academic questions and other scholars attempt these questions and share
-        the opinions with each other. A web app where other features will be
+        the opinions with each other. A web app where this and other features will be
         implemented is currently being built.
       </p>
-      <p className='mt-4 text-center max-w-[40rem] mx-auto'>
+      <p className='mt-4 text-center max-w-[80rem] mx-auto'>
         Let's learn together, share resources and connect with each other.
       </p>
 
