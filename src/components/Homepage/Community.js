@@ -17,17 +17,20 @@ function Community() {
         Let's learn together, share resources and connect with each other.
       </p>
 
-      <p>
+      {/* <p>
         The join now will redirect you to our telegram group pls change it to
         Join us so we can have 3 links telegram group, telegram channel and
         twitter For telegram group link: https://t.me/+Ekm9DS5Ucb5mMmQ0 For
         telegram channel link: https://t.me/+E8rcxi4DxEQxMTFk for twitter:
         https://twitter.com/faradayafrica
-      </p>
+      </p> */}
 
-      <button className='block bg-[#39B48B] mx-auto py-3 px-10 text-white mt-4'>
+      <a
+        href='https://t.me/+Ekm9DS5Ucb5mMmQ0'
+        className='block max-w-[223px] mt-4 bg-[#39B48B] mx-auto py-3 px-10 text-white text-center'
+      >
         Join the Community
-      </button>
+      </a>
     </section>
   );
 }

@@ -11,7 +11,7 @@ function Footer() {
       <div className='container  text-white'>
         <img src={Logo} alt='faraday logo' className='mb-8' />
         <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-          <div>
+          {/* <div>
             <h4 className='text-lg mb-3'>Quick links</h4>
 
             <ul className='text-sm font-normal space-y-3'>
@@ -34,7 +34,7 @@ function Footer() {
                 <Link to='/gallery'>Gallery</Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div>
             <h4 className='text-lg mb-3'>Socials</h4>
