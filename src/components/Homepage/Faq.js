@@ -12,29 +12,29 @@ function Faq() {
         },
         {
           ques: "How can I ask question in the telegram community?",
-          ans1: "Here is the format to do that Start with your name, school and deptment and drop your question at the end of you question tag @faradayqna. If you don't tag @faradayqna your question might get buried in the group chat.",
-          ans2: "the admin with @faradayqna will copy your details and question. Gives it a serial number and pin it in the group chat. The admin will also post it in our channel and in our twitter handle so it can get adequate engagement it deserves. Once you see an answer that appeals to you most pls comment on it.",
+          ans1: "State your name, school and department, then ask your question and at the end of it tag @faradayqna. If you don't tag @faradayqna your question might get buried in the group chat.",
+          ans2: "An admin will copy your details and question, give it a serial number and pin it in the group chat. The admin will also post it in our channel and in our twitter handle so it can get adequate engagement it deserves. Once you see an answer that appeals to you most pls comment on it.",
         },
         {
           ques: "How can I answer question in the telegram community?",
-          ans1: "Also check our pinned message, channel and twitter handle for questions to answer. Here is a format on how to do that Start with the serial number given to that question then your name, dept and school.  then your answer at the end @faradayqna if you don't tag @faradayqna your answer might get buried in the group chat. in the twitter handle you can just comment on that question.",
+          ans1: "Check for pinned messages, channel messages and twitter handle for questions to answer. Start with the serial number given to that question then state your name, dept and school and your answer. At the end tag @faradayqna. If you don't tag @faradayqna your answer might get buried in the group chat. On twitter you can just comment on that question.",
         },
         {
-          ques: "Is question and answer the only value we get in the telegram community?",
-          ans1: "No, that not all the group have to offer. Twice every month we will have virtual event on twitter space or google meet to discuss our experience studying in African university. In the group, discussion on difficulties we face and possible hack to get by will be talk on daily basis..",
+          ques: "Is question and answer the only value we get in the Telegram community?",
+          ans1: "No, that's definitely not all the Community has to offer. Twice every month we will have virtual event using Twitter Spaces or Google Meet to discuss our experiences studying in African universities. In the Community, difficulties we face and possible hacks to get by will be discussed.",
         },
         {
           ques: "How is faraday different from chegg and numerous question and answer sites",
-          ans1: "a. We are free for everyone that wants to join the community and also use the app when its ready",
-          ans2: "b. We are breaking the barriers between campuses by connecting students with each other to foster peer-learning and collaboration among scholars.",
+          ans1: "A. We are free for everyone that wants to join the community and also use our App when its ready",
+          ans2: "B. We are breaking the barriers between campuses by connecting Students with each other to foster peer-learning and collaboration among scholars.",
         },
         {
-          ques: "Why should I write my name, deptment, school and tagging @faradayqna while asking question or answering?",
-          ans1: "The name, department and school help to foster that relationship between scholars and also this gives you right to your questions and answers.(do you think the right... apart is unneccesary) if yes pls ignore it.",
-          ans2: "The tag help the admin to broadcast your question and answer so it won't get buried in the group chat.",
+          ques: "Why should I write my name, department, school and tag @faradayqna while asking a question or answering one?",
+          ans1: "The name, department and school helps to create an identity for you to help other Students connect with you.",
+          ans2: "The tag helps the admin to broadcast your question and answer so it won't get buried in the Community",
         },
         {
-          ques: "What happens if I don't tag @faradayqna while asking or providing answer in the group chat.",
+          ques: "What happens if I don't tag @faradayqna while asking or providing an answer in the Community",
           ans1: "Your questions and answers might get buried.",
         },
       ].map((item, index) => (
