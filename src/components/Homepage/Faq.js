@@ -16,7 +16,7 @@ function Faq() {
           ans2: "An admin will copy your details and question, give it a serial number and pin it in the group chat. The admin will also post it in our channel and in our twitter handle so it can get adequate engagement it deserves. Once you see an answer that appeals to you most pls comment on it.",
         },
         {
-          ques: "How can I answer question in the telegram community?",
+          ques: "How can I answer a question in the Telegram Community?",
           ans1: "Check for pinned messages, channel messages and twitter handle for questions to answer. Start with the serial number given to that question then state your name, dept and school and your answer. At the end tag @faradayqna. If you don't tag @faradayqna your answer might get buried in the group chat. On twitter you can just comment on that question.",
         },
         {
@@ -24,7 +24,7 @@ function Faq() {
           ans1: "No, that's definitely not all the Community has to offer. Twice every month we will have virtual event using Twitter Spaces or Google Meet to discuss our experiences studying in African universities. In the Community, difficulties we face and possible hacks to get by will be discussed.",
         },
         {
-          ques: "How is faraday different from chegg and numerous question and answer sites",
+          ques: "How is Faraday different from chegg and numerous question and answer sites",
           ans1: "A. We are free for everyone that wants to join the community and also use our App when its ready",
           ans2: "B. We are breaking the barriers between campuses by connecting Students with each other to foster peer-learning and collaboration among scholars.",
         },
