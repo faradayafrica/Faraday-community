@@ -7,11 +7,11 @@ function Faq() {
 
       {[
         {
-          ques: "How is the community valuable to me?",
-          ans1: "The value the community is giving you is having access to other scholars across Africa that can attempt your questions and share resources with you. Also the community gives you the ability to attempt other people question and make meaniful connection with one another.",
+          ques: "How is the Community valuable to me?",
+          ans1: "The Community provides you value by giving you access to Students/Scholars across Africa that can help answer your questions and share resources with you. Also, the Community gives you the ability to attempt other people questions and establish meaniful relationship with one another.",
         },
         {
-          ques: "How can I ask question in the telegram community?",
+          ques: "How can I ask a question in the Telegram Community?",
           ans1: "State your name, school and department, then ask your question and at the end of it tag @faradayqna. If you don't tag @faradayqna your question might get buried in the group chat.",
           ans2: "An admin will copy your details and question, give it a serial number and pin it in the group chat. The admin will also post it in our channel and in our twitter handle so it can get adequate engagement it deserves. Once you see an answer that appeals to you most pls comment on it.",
         },
