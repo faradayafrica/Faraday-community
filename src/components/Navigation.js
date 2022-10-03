@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../images/logo.svg";
+import { FARADAY_ABOUT_URL } from "../util";
 
 export default function Navigation() {
   const [open, setOpen] = useState(false);
@@ -51,7 +52,7 @@ export default function Navigation() {
           } md:space-y-0 md:space-x-3 md: md:flex`}
         >
           <li className='navlink font-medium '>
-            <a href='#about-faraday'>About Faraday</a>
+            <a href={FARADAY_ABOUT_URL} target="_blank">About Faraday</a>
           </li>
           <li className='navlink font-medium'>
             <a href='#faraday-community'>Faraday Community</a>
