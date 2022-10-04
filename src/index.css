@@ -77,3 +77,8 @@ input[type="number"] {
     max-width: 1025px;
   }
 }
+
+
+.font_weight{
+  font-weight: inherit;
+}
