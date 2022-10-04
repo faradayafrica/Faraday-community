@@ -23,7 +23,7 @@ function Faq() {
             key={index}
             className='border-t py-3 border-gray-500 cursor-pointer'
           >
-            <summary className='font-bold'>{faq.question}</summary>
+            <summary className='font-bold font_weight'>{faq.question}</summary>
             <p className='mt-2 ml-4'>{faq.paragraph1}</p>
             {faq?.paragraph2 && <p className='mt-2 ml-4'>{faq.paragraph2}</p>}
           </details>
