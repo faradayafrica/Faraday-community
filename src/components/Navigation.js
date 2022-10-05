@@ -52,7 +52,7 @@ export default function Navigation() {
           } md:space-y-0 md:space-x-3 md: md:flex`}
         >
           <li className='navlink font-medium '>
-            <a href={FARADAY_ABOUT_URL} target="_blank">About Faraday</a>
+            <a href={FARADAY_ABOUT_URL} target="_blank" rel="noreferrer" >About Faraday</a>
           </li>
           <li className='navlink font-medium'>
             <a href='#faraday-community'>Faraday Community</a>
