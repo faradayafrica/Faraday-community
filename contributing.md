@@ -2,6 +2,8 @@
 If you are looking to help with a code contribution, our project uses React. If you don't feel ready to make a code contribution yet, no problem! There may be some open issues related to documentation or design soon so we recommend that you watch the repo to get notified when there are new activities happening on the project. You can also propose improvements by opening a new issue. <!-- You can also check out the documentation issues [link to the docs label or tag on your issue tracker] or the design issues that we have [link to design label or tag on issue tracker if your project tracks design issues].-->
 
 
+I added a new line. 
+
 ## How do I make a contribution?
 If you've never made an open source contribution before or you are wondering how contributions work in our project? Here's a quick rundown!
 
