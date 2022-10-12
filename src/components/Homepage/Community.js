@@ -28,13 +28,13 @@ function Community () {
       <div className='flex justify-center gap-4'>
         <a
           href='https://t.me/+Ekm9DS5Ucb5mMmQ0'
-          className='block max-w-[223px] mt-4 bg-[#39B48B]  py-3 px-10 text-white text-center join-channel'
+          className='block max-w-[223px] mt-4 bg-[#05B851]  py-3 px-10 text-white text-center join-channel'
         >
           Join the Community
         </a>
         <a
           href='https://t.me/+E8rcxi4DxEQxMTFk'
-          className='block max-w-[223px] mt-4 bg-[#39B48B]  py-3 px-10 text-white text-center join-channel'
+          className='block max-w-[223px] mt-4 bg-[#05B851]  py-3 px-10 text-white text-center join-channel'
         >
           Join the Channel
         </a>
