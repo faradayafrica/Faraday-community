@@ -1,5 +1,5 @@
-import React from "react";
-import BgBottom from "../../images/bg-bottom.svg";
+import React from 'react';
+import BgBottom from '../../images/bg-bottom.svg';
 
 function Banner() {
   return (

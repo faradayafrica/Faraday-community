@@ -1,12 +1,18 @@
-import React, { useEffect, useState } from "react";
-import { base } from "../../util";
+import React, { useEffect, useState } from 'react';
+import { base } from '../../util';
+import { FieldSet } from 'airtable';
+// @ts-ignore
 
 function Faq() {
-  const [faqs, setFaqs] = useState([]);
+  const [faqs, setFaqs] = useState<
+    | []
+    | FieldSet[]
+    | { question: string; paragraph2: string; paragraph1: string }[]
+  >([]);
 
   useEffect(() => {
-    base("faqs")
-      .select({ view: "Grid view" })
+    base('faqs')
+      .select({ view: 'Grid view' })
       .eachPage((faqs, fetchNextPage) => {
         const newData = faqs.map((faq) => faq.fields);
         setFaqs(newData);
