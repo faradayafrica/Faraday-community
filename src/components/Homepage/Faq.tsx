@@ -5,16 +5,14 @@ import { FieldSet } from 'airtable';
 
 function Faq() {
   const [faqs, setFaqs] = useState<
-    | []
-    | FieldSet[]
-    | { question: string; paragraph2: string; paragraph1: string }[]
+    any[] | { question: string; paragraph2: string; paragraph1: string }[]
   >([]);
 
   useEffect(() => {
     base('faqs')
       .select({ view: 'Grid view' })
-      .eachPage((faqs, fetchNextPage) => {
-        const newData = faqs.map((faq) => faq.fields);
+      .eachPage((faqs: any, fetchNextPage) => {
+        const newData = faqs.map((faq: any) => faq.fields);
         setFaqs(newData);
         fetchNextPage();
       });
