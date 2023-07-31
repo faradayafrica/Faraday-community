@@ -21,11 +21,11 @@ function Homepage() {
       <Navigation />
 
       <div className='scrollbar-hide-scroll snap-y snap-mandatory overflow-y-scroll h-screen'>
-        <SectionContainer>
+        <SectionContainer className='bg-headerBg bg-no-repeat bg-contain bg-bottom'>
           <Banner />
         </SectionContainer>
 
-        <SectionContainer>
+        <SectionContainer className='relative'>
           <Welcome />
         </SectionContainer>
 
@@ -45,7 +45,7 @@ function Homepage() {
           <Connect />
         </SectionContainer>
 
-        <SectionContainer>
+        <SectionContainer className='relative'>
           <Faq />
         </SectionContainer>
 

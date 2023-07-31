@@ -7,8 +7,8 @@ import Youtube from '../images/youtube.svg';
 
 function Footer() {
   return (
-    <footer className='text-white'>
-      <div className='container'>
+    <footer className='text-white w-full'>
+      <div className='container py-16'>
         <div className='grid gap-11 grid-cols-2 md:grid-cols-4'>
           <div className='col-span-2 md:col-auto'>
             <h4 className='font-extrabold text-2xl'>

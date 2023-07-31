@@ -1,46 +1,27 @@
-import React from 'react'
+import React from 'react';
+import Button from '../Button';
 
-function Community () {
+function Community() {
   return (
-    <section className='container max-w-[784px] text-center'>
-      <h2 className='text-xl md:text-2xl font-bold'>Faraday Community</h2>
-
-      <p className='mt-4 max-w-[40rem] mx-auto'>
-        Join the telegram group and channel where all African scholars can ask
-        academic questions and other scholars attempt these questions and share
-        the opinions with each other. A web app where this and other features
-        will be implemented is currently being built.
-      </p>
-      <p className='mt-4 max-w-[40rem] mx-auto'>
-        Let's learn together, share resources and connect with each other.
-      </p>
-
-      <p className='mt-4 max-w-[40rem] mx-auto'>
-        By joining the community I agree to the faraday telegram{' '}
-        <a
-          href='https://docs.google.com/document/d/169jEkkdpboFZ10hHomZO4TQjfM0ldapMIDeFLxvgomQ/edit?usp=sharing'
-          className='underline'
-        >
-          community guideline and code of conduct
-        </a>
-      </p>
-
-      <div className='flex justify-center gap-4'>
-        <a
-          href='https://t.me/+Ekm9DS5Ucb5mMmQ0'
-          className='block max-w-[223px] mt-4 bg-[#39B48B]  py-3 px-10 text-white text-center join-channel'
-        >
-          Join the Community
-        </a>
-        <a
-          href='https://t.me/+E8rcxi4DxEQxMTFk'
-          className='block max-w-[223px] mt-4 bg-[#39B48B]  py-3 px-10 text-white text-center join-channel'
-        >
-          Join the Channel
-        </a>
+    <section className='container w-full' id='about-faraday'>
+      <div className='font-bold text-center'>
+        <p className='uppercase text-sm md:text-2xl'>
+          excited be a part of this?
+        </p>
+        <h2 className='text-center text-4xl md:text-6xl font-bold'>
+          Here’s what you can do
+        </h2>
       </div>
+
+      <p className='mt-4 font-medium text-center max-w-[35rem] mx-auto'>
+        Join the telegram group and channel where you can ask academic questions
+        and other students can attempt these questions and share their opinions
+        with each then join the website.
+      </p>
+
+      <Button className='px-14 mx-auto mt-6'>Join us!</Button>
     </section>
-  )
+  );
 }
 
-export default Community
+export default Community;
