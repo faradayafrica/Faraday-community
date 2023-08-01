@@ -76,3 +76,24 @@ input[type="number"] {
   font-weight: inherit;
 }
 
+.slidedown {
+  position: relative;
+  animation: slideDown 5s infinite;
+  transition: all 100ms ease-in-out;
+}
+.slideup {
+  position: relative;
+  animation: slideUp 5s infinite;
+  transition: all 100ms ease-in-out;
+}
+
+@keyframes slideDown {
+  0% {top: 0px;}
+  50% {top: 30px;}
+  100% {top: 0px;}
+}
+@keyframes slideUp {
+  0% {top: 30px;}
+  50% {top: 0px;}
+  100% {top: 30px;}
+}

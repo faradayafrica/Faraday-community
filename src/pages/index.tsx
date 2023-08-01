@@ -21,7 +21,7 @@ function Homepage() {
       <Navigation />
 
       <div className='scrollbar-hide-scroll snap-y snap-mandatory overflow-y-scroll h-screen'>
-        <SectionContainer className='bg-headerBg bg-no-repeat bg-contain bg-bottom'>
+        <SectionContainer className='bg-headerBg relative bg-no-repeat bg-contain bg-bottom items-start'>
           <Banner />
         </SectionContainer>
 
