@@ -27,7 +27,7 @@ function Faq() {
       <div className='mx-auto mt-7 w-full rounded-2xl space-y-4'>
         {faqs &&
           faqs.map((faq, index) => (
-            <div className='bg-[#F2F2F2] rounded-3xl p-5'>
+            <div key={index} className='bg-[#F2F2F2] rounded-3xl p-5'> {/* Add key prop */}
               <Disclosure>
                 {({ open }) => (
                   <>
