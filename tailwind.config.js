@@ -1,18 +1,22 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
-    fontFamily: {
-      poppins: "'Poppins', sans-serif",
-      roboto: "'Roboto', sans-serif",
-    },
     extend: {
       colors: {
-        primary: "#05B851",
-        textColor: "#3F3F41",
+        primary: '#05B851',
+        textColor: '#3F3F41',
+        brandNight: '#333B47',
+        brandSecondary: '#011945',
+        brandColor: '#35C567',
       },
       backgroundImage: {
-        homeBanner: "url('./images/home-banner.svg')",
-        footerBg: "url('./images/footer-bg.svg')",
+        pattern: 'url(/images/bg-pattern.png)',
+        headerBg: 'url(/images/header-bg.svg)',
       },
     },
   },
